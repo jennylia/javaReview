@@ -18,12 +18,10 @@ public class MainApp {
 			((Cats) sandy).eat("x");
 			
 			bunny.eat("x");
-			System.out.println();
-			Animal buddy = new Dogs("buddy", "rubbe bone");
 			
-			System.out.println("hello");
-			((Cats) buddy).eat("x");
-			//((Animal) buddy).walkAround();
+			Animal buddy = new Dogs("buddy", "rubbe bone");
+			buddy.eat();
+			buddy.walkAround();
 			
 	}
 

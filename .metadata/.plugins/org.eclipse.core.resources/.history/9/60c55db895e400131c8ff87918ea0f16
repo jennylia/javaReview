@@ -20,10 +20,8 @@ public class MainApp {
 			bunny.eat("x");
 			System.out.println();
 			Animal buddy = new Dogs("buddy", "rubbe bone");
-			
-			System.out.println("hello");
-			((Cats) buddy).eat("x");
-			//((Animal) buddy).walkAround();
+			buddy.eat();
+			buddy.walkAround();
 			
 	}
 

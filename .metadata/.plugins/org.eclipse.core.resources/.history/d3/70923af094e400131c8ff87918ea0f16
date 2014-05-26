@@ -26,7 +26,7 @@ public class Animal {
 		this.favFood = food;
 	}
 	
-	protected void eat(){
+	protected final void eat(){
 		System.out.println("Eating yum yum");
 	}
 	

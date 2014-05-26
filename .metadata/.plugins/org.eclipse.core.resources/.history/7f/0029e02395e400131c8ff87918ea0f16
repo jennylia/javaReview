@@ -15,16 +15,9 @@ public class MainApp {
 			System.out.println(sandy.favFood);
 			
 			System.out.println(((Cats) sandy).favoriteToy);
-			((Cats) sandy).eat("x");
+			sandy.eat();
 			
-			bunny.eat("x");
-			System.out.println();
-			Animal buddy = new Dogs("buddy", "rubbe bone");
-			
-			System.out.println("hello");
-			((Cats) buddy).eat("x");
-			//((Animal) buddy).walkAround();
-			
+			bunny.eat();
 	}
 
 }

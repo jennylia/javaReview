@@ -21,10 +21,6 @@ public class Cats extends Animal{
 		this.favoriteToy = favToy;
 	}
 	
-	public void eat(String x){
-		super.eat();
-		System.out.println("cat food is enjoyable");
-		System.out.println(x);
-	}
+	
 	
 }
