@@ -1,0 +1,16 @@
+public class B extends A {
+	int intB = 20;
+
+	public B() {
+		System.out.println("B");
+
+	}
+	
+	public B(int no1, int no2){
+		intA = 2 * no1;
+		intB = no2;
+		System.out.println(intA);
+		System.out.println(intB);
+		
+	}
+}

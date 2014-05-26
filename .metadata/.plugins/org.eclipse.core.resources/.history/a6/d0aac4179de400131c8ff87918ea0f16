@@ -1,0 +1,17 @@
+
+public class A {
+	
+	int intA = 10;
+
+	public A(){
+		
+		System.out.println("A");
+	}
+	
+//	public A(int no){
+//		System.out.println("A's second constructor");
+//		intA = 2 * no;
+//		System.out.println(intA);
+//	}
+	
+}

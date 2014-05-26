@@ -1,0 +1,11 @@
+
+public class A {
+	
+	protected Object ClassName;
+
+	public A(){
+		this.ClassName= "A";
+		System.out.println(this.ClassName.toString());
+	}
+	
+}

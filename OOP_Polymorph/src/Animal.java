@@ -22,11 +22,13 @@ public class Animal {
 	public Animal(){}
 	
 	public Animal(String name, String food){
+		System.out.println("Animal Constructor");
 		this.name = name;
 		this.favFood = food;
 	}
 	
 	protected void eat(){
+		
 		System.out.println("Eating yum yum");
 	}
 	
